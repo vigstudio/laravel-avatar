@@ -1,5 +1,5 @@
 {
-    "name": "laravolt/avatar",
+    "name": "vigstudio/laravel-avatar",
     "description": "Turn name, email, and any other string into initial-based avatar or gravatar.",
     "keywords": [
         "laravel",
@@ -9,6 +9,7 @@
     ],
     "homepage": "https://github.com/laravolt/avatar",
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Bayu Hendra Winata",
@@ -19,12 +20,12 @@
     ],
     "require": {
         "php": ">=7.3",
-        "illuminate/support": "^6.0|^7.0|^8.0|^9.0",
-        "illuminate/cache": "^6.0|^7.0|^8.0|^9.0",
+        "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0",
+        "illuminate/cache": "^6.0|^7.0|^8.0|^9.0|10.0",
         "intervention/image": "^2.5"
     },
     "require-dev": {
-        "phpunit/phpunit": "~9.0",
+        "phpunit/phpunit": "~9.0|^10.0",
         "mockery/mockery": "~1.3",
         "php-coveralls/php-coveralls": "^2.1"
     },
@@ -42,9 +43,6 @@
         "test": "phpunit"
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "5.0-dev"
-        },
         "laravel": {
             "providers": [
                 "Laravolt\\Avatar\\ServiceProvider"
